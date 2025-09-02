@@ -11,4 +11,3 @@ def log_writer():
 
 if __name__ == "__main__":
     log_writer()
-# Assignment Completed
