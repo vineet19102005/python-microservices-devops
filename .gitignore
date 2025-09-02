@@ -1,0 +1,36 @@
+# Terraform local state
+.terraform/
+terraform/.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+*.tfvars
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Terraform lock file
+.terraform.lock.hcl
+
+# Executables and providers
+*.exe
+
+# Python stuff (in case your microservices have them)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+*.log
+
+# Environment / venv
+.env
+.venv/
+venv/
+ENV/
+
+# IDE/editor junk
+.vscode/
+.idea/
+.DS_Store
